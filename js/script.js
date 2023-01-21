@@ -68,5 +68,4 @@ document.addEventListener('DOMContentLoaded', () => {
             closeModalFunc();
         }
     })
-
 });
