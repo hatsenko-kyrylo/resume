@@ -528,10 +528,10 @@ footer{
 	color: #000;
 	display: none;
 	.modal__window{
-		width: 600px;
+		max-width: 600px;
 		height: auto;
 		background-color: #E4E4E4;
-		margin: 50px auto;
+		margin: 20px auto;
 		border-radius: 14px;
 		box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.25);
 		animation: appearance 1s forwards;
@@ -551,7 +551,7 @@ footer{
 				gap: 10px;
 				padding-top: 10px;
 			}
-			.modal__soft-skills, .modal__tech-skills{
+			.modal__soft-skills, .modal__hard-skills, .modal__language{
 				font-family: 'NextArtSemiBold';
 				font-size: 16px;
 				display: flex;
@@ -569,7 +569,7 @@ footer{
 		align-items: center;
 		font-size: 25px;
 		color: #000;
-		margin-left: 560px;
+		right: 0;
 		position: absolute;
 		width: 40px;
 		height: 40px;
