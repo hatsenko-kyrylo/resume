@@ -653,6 +653,8 @@ footer .footer__container .footer__menu .footer__menu-item a:hover {
   border-radius: 14px;
   -webkit-box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.25);
           box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.25);
+  -webkit-animation: appearance 1s forwards;
+          animation: appearance 1s forwards;
 }
 .modal .modal__window .modal__wrapper {
   display: -webkit-box;
@@ -718,4 +720,24 @@ footer .footer__container .footer__menu .footer__menu-item a:hover {
   height: 40px;
   cursor: pointer;
   padding: 5px;
+}
+@-webkit-keyframes appearance {
+  0% {
+    -webkit-transform: translateY(150%);
+            transform: translateY(150%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes appearance {
+  0% {
+    -webkit-transform: translateY(150%);
+            transform: translateY(150%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }

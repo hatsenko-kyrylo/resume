@@ -534,6 +534,7 @@ footer{
 		margin: 50px auto;
 		border-radius: 14px;
 		box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.25);
+		animation: appearance 1s forwards;
 		.modal__wrapper{
 			display: flex;
 			flex-direction: column;
@@ -574,5 +575,9 @@ footer{
 		height: 40px;
 		cursor: pointer;
 		padding: 5px;
+	}
+	@keyframes appearance {
+		0% {transform: translateY(150%)}
+		100% {transform: translateY(0)}
 	}
 }
